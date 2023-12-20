@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34112.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalAPIPeliculas", "MinimalAPIPeliculas\MinimalAPIPeliculas.csproj", "{2F6B48B1-92D9-409C-AB78-DF9A2343FADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F6B48B1-92D9-409C-AB78-DF9A2343FADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6B48B1-92D9-409C-AB78-DF9A2343FADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6B48B1-92D9-409C-AB78-DF9A2343FADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6B48B1-92D9-409C-AB78-DF9A2343FADE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85A6E44B-58B2-496F-B6CC-33512880F88C}
+	EndGlobalSection
+EndGlobal
