@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Prueba CORS del Web API (presionar F12)</h1>
+    <script>
+        const urlWebAPI = 'https://localhost:7264/';
+        consumirWebAPI(); 
+        async function consumirWebAPI() {
+            const respuesta = await fetch(urlWebAPI, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            const json = await respuesta.text();
+            console.log(json);
+
+        }
+    </script>
+</body>
+</html>
